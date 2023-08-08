@@ -47,7 +47,7 @@
 #ayam {
   position: absolute;
   bottom: -100px;
-  right: 400px;
+  /* right: 400px; */
 }
 #kucing {
   /* position: absolute;
@@ -57,6 +57,7 @@
 }
 .svg-dog {
   float: right;
+  left: 60%;
 }
 .text {
   float: left;
