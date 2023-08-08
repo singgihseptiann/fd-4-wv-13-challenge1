@@ -34,8 +34,6 @@
 
 .container {
   display: block;
-  row-gap: 50px;
-  margin-bottom: 20px;
   background-color: white;
   overflow: hidden;
   width: 50%;
@@ -45,12 +43,11 @@
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
   padding-left: 20px;
   position: relative;
-  /* z-index: -1; */
 }
 #ayam {
-  position: absolute; /* Tambahkan properti position: absolute; */
-  bottom: -90px; /* Sesuaikan posisi vertikal (nilai negatif untuk keluar dari kontainer) */
-  right: 400px; /* Sesuaikan posisi horizontal (nilai negatif untuk keluar dari kontainer) */
+  position: absolute;
+  bottom: -100px;
+  right: 400px;
 }
 #kucing {
   /* position: absolute;
@@ -64,7 +61,7 @@
 .text {
   float: left;
   width: calc(100% - 220px);
-  padding-top: 40px;
+  padding-top: 20px;
 }
 button {
   background-color: #472f92;
@@ -72,4 +69,9 @@ button {
   height: 40px;
   padding: 10px 20px;
   border-radius: 5px;
+}
+
+.title-hewan {
+  font-size: 25px;
+  font-weight: bolder;
 }
